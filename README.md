@@ -1,18 +1,18 @@
 
 
-## Build the API 
+## Build Simples da API 
 
 ```
     $ docker build . -t example/api
 ```
 
-## Build the API in Developer Mode with Docker-Compose 
+## Build da API no Developer Mode com o Compose v2
 
 ```
     $ docker-compose up -d 
 ```
 
-## Deploy da API - Compose v3
+## Deploy da API no Swarm Mode - Compose v3
 
 ```
     $ docker stack deploy -c docker-compose-prodswarm.yml app
