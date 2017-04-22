@@ -61,7 +61,7 @@ app_api scaled to 10
 Podemos olhar novamente agora e...
 
 ```
-$ docker stack services app
+$ docker stack s app
 ```
 
 ```
