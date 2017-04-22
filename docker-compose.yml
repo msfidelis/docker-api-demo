@@ -1,9 +1,8 @@
 version: '2'
 services:
-  app:
-    image: msfidelis/example-api
-    #build: .
-    #volumes:
-    #  - ./app/:/app
+  api:
+    build: .
+    volumes:
+      - ./app/:/app
     ports:
       - "80:80"
